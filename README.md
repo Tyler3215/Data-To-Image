@@ -9,8 +9,8 @@ A script that encodes text itself or text from a file into an image. The applica
    - `Image-to-Text Decoding:` Retrieves text data from encoded images.
    - `Decoding to File:` Writes decoded text data to a new text file.
 ## Usage:
-- You can simply use a dedicated menu.  
-- You can call the methods yourself. The script provides two classes:
+- You can simply use a dedicated menu `menu.py`.  
+- You can call the methods yourself `main.py`. The script provides two classes:
    - `Encoder:` Handles the encoding of text data into images. Methods:
      - `EncodeFile:` Encodes text from a file.
      - `EncodeString:` Encodes a provided string.
