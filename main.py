@@ -66,7 +66,7 @@ class Encoder():
             lastIndex = self.__ColorsToImages(dataColors=dataColors, lastIndex=lastIndex, lap=i)
     
     @NumbersOnly
-    def SetResoultion(self, width: str, height: str) -> None: #Sets image resolution.
+    def SetResolution(self, width: str, height: str) -> None: #Sets image resolution.
         if int(width) * int(height) % 2 != 0:
             raise ValueError(f"The resolution must be divisible by 2. {int(width) * int(height)} is not divisible by 2")
         self.__width, self.__height = width, height
